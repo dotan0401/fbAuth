@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		38A15D65728FC85818E299A8 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42413656DDBB179D170F913E /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		422147F441C97DCB1389FA70 /* libPods-fbAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F51AB43D100B2FBF367ECE0 /* libPods-fbAuth.a */; };
-		5C396DB384B70BD1304457C9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 176FFC4873FB99FB795888FB /* PrivacyInfo.xcprivacy */; };
+		424E408B16E6416D88FAA6E0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 70ABFDD1B00D442C7C6DE60B /* PrivacyInfo.xcprivacy */; };
+		7C458991296E6F89451C476F /* libPods-fbAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63394C143D98617B139E4A18 /* libPods-fbAuth.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		D4EE2E2CF51C58B2F51A9AF7 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DE340AAF1B3B1A1448D250 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +20,13 @@
 		13B07F961A680F5B00A75B9A /* fbAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = fbAuth/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = fbAuth/Info.plist; sourceTree = "<group>"; };
-		176FFC4873FB99FB795888FB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = fbAuth/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		1F966AAF227C2314FF38571A /* Pods-fbAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbAuth.release.xcconfig"; path = "Target Support Files/Pods-fbAuth/Pods-fbAuth.release.xcconfig"; sourceTree = "<group>"; };
-		3F51AB43D100B2FBF367ECE0 /* libPods-fbAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fbAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77DE340AAF1B3B1A1448D250 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-fbAuth/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		2EF00F964E5215C975875F0B /* Pods-fbAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbAuth.debug.xcconfig"; path = "Target Support Files/Pods-fbAuth/Pods-fbAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		42413656DDBB179D170F913E /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-fbAuth/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		63394C143D98617B139E4A18 /* libPods-fbAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fbAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ABFDD1B00D442C7C6DE60B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = fbAuth/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = fbAuth/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		CB807D5B8C8E1E6BAF9A4AF5 /* Pods-fbAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbAuth.debug.xcconfig"; path = "Target Support Files/Pods-fbAuth/Pods-fbAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		E0E047848629D5721BEB58AA /* Pods-fbAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fbAuth.release.xcconfig"; path = "Target Support Files/Pods-fbAuth/Pods-fbAuth.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = fbAuth/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* fbAuth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "fbAuth-Bridging-Header.h"; path = "fbAuth/fbAuth-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422147F441C97DCB1389FA70 /* libPods-fbAuth.a in Frameworks */,
+				7C458991296E6F89451C476F /* libPods-fbAuth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				176FFC4873FB99FB795888FB /* PrivacyInfo.xcprivacy */,
+				70ABFDD1B00D442C7C6DE60B /* PrivacyInfo.xcprivacy */,
 			);
 			name = fbAuth;
 			sourceTree = "<group>";
@@ -62,9 +62,27 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				3F51AB43D100B2FBF367ECE0 /* libPods-fbAuth.a */,
+				63394C143D98617B139E4A18 /* libPods-fbAuth.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521B204A06629A5CDD4BED3B /* fbAuth */ = {
+			isa = PBXGroup;
+			children = (
+				42413656DDBB179D170F913E /* ExpoModulesProvider.swift */,
+			);
+			name = fbAuth;
+			sourceTree = "<group>";
+		};
+		5C6FFDFE8764837C3D55EA50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EF00F964E5215C975875F0B /* Pods-fbAuth.debug.xcconfig */,
+				E0E047848629D5721BEB58AA /* Pods-fbAuth.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -81,8 +99,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				FC33FF8C0AA7107A4C22EB25 /* Pods */,
-				C1D9F964434AF53AD41BE808 /* ExpoModulesProviders */,
+				5C6FFDFE8764837C3D55EA50 /* Pods */,
+				B5B54B04DCD985E5D69E15A5 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -97,12 +115,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C0CB5BDDF45A0891F2AE7A3 /* fbAuth */ = {
+		B5B54B04DCD985E5D69E15A5 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				77DE340AAF1B3B1A1448D250 /* ExpoModulesProvider.swift */,
+				521B204A06629A5CDD4BED3B /* fbAuth */,
 			);
-			name = fbAuth;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -114,24 +132,6 @@
 			path = fbAuth/Supporting;
 			sourceTree = "<group>";
 		};
-		C1D9F964434AF53AD41BE808 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				9C0CB5BDDF45A0891F2AE7A3 /* fbAuth */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		FC33FF8C0AA7107A4C22EB25 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CB807D5B8C8E1E6BAF9A4AF5 /* Pods-fbAuth.debug.xcconfig */,
-				1F966AAF227C2314FF38571A /* Pods-fbAuth.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "fbAuth" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				27255E020B7B742C2F3FF34E /* [Expo] Configure project */,
+				BAD392D4C8B7E53C6AAD1FC3 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				A64C75C72B6A99F8BDD60DB6 /* [CP] Embed Pods Frameworks */,
+				8FE737934BF37140969390FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				5C396DB384B70BD1304457C9 /* PrivacyInfo.xcprivacy in Resources */,
+				424E408B16E6416D88FAA6E0 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,25 +240,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27255E020B7B742C2F3FF34E /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-fbAuth/expo-configure-project.sh\"\n";
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,7 +276,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fbAuth/Pods-fbAuth-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A64C75C72B6A99F8BDD60DB6 /* [CP] Embed Pods Frameworks */ = {
+		8FE737934BF37140969390FA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,6 +294,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fbAuth/Pods-fbAuth-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BAD392D4C8B7E53C6AAD1FC3 /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-fbAuth/expo-configure-project.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				D4EE2E2CF51C58B2F51A9AF7 /* ExpoModulesProvider.swift in Sources */,
+				38A15D65728FC85818E299A8 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB807D5B8C8E1E6BAF9A4AF5 /* Pods-fbAuth.debug.xcconfig */;
+			baseConfigurationReference = 2EF00F964E5215C975875F0B /* Pods-fbAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -366,7 +366,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F966AAF227C2314FF38571A /* Pods-fbAuth.release.xcconfig */;
+			baseConfigurationReference = E0E047848629D5721BEB58AA /* Pods-fbAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
